@@ -1,0 +1,5 @@
+/Editor/** -text
+/Editor.meta -text
+/package.json -text
+/package.json.meta -text
+/README.md text eol=lf

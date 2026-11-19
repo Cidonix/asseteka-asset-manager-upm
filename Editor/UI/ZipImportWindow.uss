@@ -1,0 +1,268 @@
+.zip-import-root {
+    padding: 16px;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.zip-import-root Label,
+.zip-import-root Button,
+.zip-import-root .unity-base-field__label,
+.zip-import-root .unity-base-field__input,
+.zip-import-root .unity-base-popup-field__text,
+.zip-import-root .unity-object-field__object {
+    font-size: 14px;
+}
+
+.zip-header {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    flex-shrink: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(128, 128, 128, 0.25);
+}
+
+.zip-import-root .zip-title {
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+}
+
+.zip-subtitle,
+.zip-wrap {
+    white-space: normal;
+}
+
+.zip-import-root .zip-subtitle,
+.zip-import-root .zip-archive {
+    font-size: 13px;
+}
+
+.zip-subtitle {
+    opacity: 0.75;
+}
+
+.zip-import-root .zip-archive {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    white-space: normal;
+}
+
+.zip-import-root .zip-header .zip-muted {
+    font-size: 12px;
+}
+
+.zip-controls {
+    padding: 12px;
+    flex-shrink: 0;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.25);
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.05);
+}
+
+.zip-controls .unity-base-field {
+    margin: 0 0 8px 0;
+    height: 24px;
+    min-height: 24px;
+}
+
+.zip-controls .unity-base-field__label {
+    min-width: 160px;
+    width: 160px;
+    flex-shrink: 0;
+    -unity-text-align: middle-left;
+}
+
+.zip-controls .unity-base-field__input,
+.zip-file-action > .unity-base-field__input {
+    height: 24px;
+    min-height: 24px;
+    padding: 0 4px;
+}
+
+.zip-import-root .unity-base-popup-field__text {
+    margin: 0;
+    padding: 0;
+    -unity-text-align: middle-left;
+}
+
+.zip-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.zip-controls .zip-folder-field {
+    flex-grow: 1;
+    min-width: 0;
+    margin: 0;
+}
+
+.zip-import-root .zip-destination-path {
+    margin-top: 0;
+    margin-bottom: 8px;
+    white-space: normal;
+    font-size: 13px;
+}
+
+.zip-import-root .zip-controls .zip-muted {
+    font-size: 12px;
+}
+
+.zip-button {
+    height: 24px;
+    min-height: 24px;
+    padding: 0 4px;
+    margin: 0 0 0 8px;
+    -unity-text-align: middle-center;
+}
+
+.zip-primary {
+    -unity-font-style: bold;
+    min-height: 24px;
+}
+
+.zip-import-root .zip-button {
+    font-size: 13px;
+}
+
+.zip-preview-heading {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.zip-import-root .zip-preview-summary {
+    flex-grow: 1;
+    white-space: normal;
+    margin-right: 12px;
+    margin-left: 0;
+    font-size: 13px;
+}
+
+.zip-file-tree {
+    height: 322px;
+    min-height: 130px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.4);
+    border-radius: 4px;
+}
+
+.zip-file-tree--short {
+    height: 130px;
+}
+
+.zip-file-tree--medium {
+    height: 258px;
+}
+
+.zip-file-row {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    height: 32px;
+    padding: 0 8px 0 0;
+}
+
+.zip-file-checkbox {
+    width: 20px;
+    margin: 0 6px 0 0;
+    flex-shrink: 0;
+}
+
+.zip-file-description {
+    flex-grow: 1;
+    min-width: 100px;
+}
+
+.zip-import-root .zip-file-name {
+    -unity-font-style: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    margin: 0;
+}
+
+.zip-import-root .zip-file-destination {
+    display: none;
+}
+
+.zip-import-root .zip-file-status {
+    width: 104px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+.zip-file-action {
+    width: 168px;
+    flex-shrink: 0;
+    height: 24px;
+    min-height: 24px;
+    margin: 0;
+}
+
+.zip-import-root .zip-file-action .unity-base-popup-field__text {
+    font-size: 13px;
+}
+
+.zip-file-conflict {
+    border-left-width: 3px;
+    border-left-color: #d49227;
+    padding-left: 5px;
+}
+
+.zip-help {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    white-space: normal;
+    flex-shrink: 0;
+}
+
+.zip-import-root .unity-help-box__text {
+    font-size: 13px;
+}
+
+.zip-footer {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: auto;
+    padding-top: 12px;
+    flex-shrink: 0;
+}
+
+.zip-recovery {
+    margin-top: 10px;
+    flex-shrink: 0;
+}
+
+.zip-recovery-row {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.zip-recovery-scroll {
+    max-height: 150px;
+}
+
+.zip-recovery-description {
+    flex-grow: 1;
+    white-space: normal;
+    margin-right: 8px;
+}
+
+.zip-muted {
+    opacity: 0.75;
+}
+
+.zip-import-root .is-hidden {
+    display: none;
+}
