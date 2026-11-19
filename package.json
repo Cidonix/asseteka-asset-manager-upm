@@ -1,6 +1,6 @@
 {
   "name": "com.asseteka.assetmanager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Asseteka Asset Manager",
   "description": "Access your Asseteka library inside the Unity Editor on Windows.",
   "unity": "2022.3",
