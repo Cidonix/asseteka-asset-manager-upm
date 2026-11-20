@@ -4,3 +4,5 @@
 /package.json.meta -text
 /README.md text eol=lf
 /README.md.meta -text
+/CHANGELOG.md text eol=lf
+/CHANGELOG.md.meta -text

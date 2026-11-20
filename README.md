@@ -2,7 +2,7 @@
 
 Browse and download assets from your Asseteka library inside the Unity Editor. This repository distributes the Windows Editor extension through Unity Package Manager (UPM).
 
-## Install v1.0.3
+## Install v1.0.4
 
 Install Git 2.14.0 or newer and make sure `git --version` works in a new terminal on Windows. Unity Package Manager uses the Git executable on `PATH`. [Unity Git installation guide](https://docs.unity.com/en-us/engine/6000.0/manual/packages-list/managing-packages-window/upm-ui-actions/upm-ui-giturl)
 
@@ -11,16 +11,21 @@ Install Git 2.14.0 or newer and make sure `git --version` works in a new termina
 3. Paste the URL below and click **Install** or **Add**.
 
 ```text
-https://github.com/Cidonix/asseteka-asset-manager-upm.git#v1.0.3
+https://github.com/Cidonix/asseteka-asset-manager-upm.git#v1.0.4
 ```
 
 ## Open your library
 
 1. In Unity, choose **Window > Asseteka > My Assets**.
 2. Click **Sign in with browser**, sign in to your Asseteka account and select **Connect Unity**.
-3. Return to Unity and select an asset in your library. For ZIP archives and `.unitypackage` files, choose **Download and import**. For a UPM `.tgz` release, choose **Install package** or **Update package**.
+3. Return to Unity, select an asset and click **Download**. Once the package is verified, choose **Import [version] to project** for ZIP and `.unitypackage` files, or **Install [version] to project** or **Update to [version]** for UPM.
 
 ZIP import lets you choose a folder and files. A `.unitypackage` opens Unity's import dialog. A UPM archive installs the full package version as a dependency of the project. The options shown for each asset depend on the formats enabled by the store and the releases available to your account.
+
+The **Overview**, **Releases**, and **Images** tabs show the asset description, release history, and published previews.
+Full galleries and release notes require the updated Asseteka Customer API. Earlier servers provide the release list and the cover image when available.
+
+Use **Load more** to add assets to the current list. The footer shows how many are displayed and how many remain. If a ZIP or Unity package import was interrupted, its recovery actions appear in the asset details. **Import recovery** lists unfinished imports across the project, including when you are signed out.
 
 ## Compatibility
 
