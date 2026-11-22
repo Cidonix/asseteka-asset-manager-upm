@@ -1,6 +1,6 @@
 {
   "name": "com.asseteka.assetmanager",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "displayName": "Asseteka Asset Manager",
   "description": "Access your Asseteka library inside the Unity Editor on Windows.",
   "changelogUrl": "https://github.com/Cidonix/asseteka-asset-manager-upm/releases",
@@ -17,6 +17,6 @@
     "url": "https://asseteka.com/"
   },
   "_upm": {
-    "changelog": "- Added a changelog to Unity Package Manager.\n- Fixed the Changelog link to open the GitHub release history.\n- Moved interrupted import actions next to the asset download controls and added a project recovery view.\n- Added recovery tooltips and clarified the actions to resume an import, restore a previous version, or undo a first import.\n- Replaced page navigation with a loaded asset count and Load more.\n- Added Overview, Releases, and Images tabs to the asset details.\n- Show a version-specific import or install action after the download is verified."
+    "changelog": "- Fixed My Assets asking you to sign in again after closing and reopening the window. Your saved session and library now restore automatically.\n- Closing the window while the session is being renewed preserves your sign-in for the next open."
   }
 }

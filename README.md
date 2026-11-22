@@ -2,7 +2,7 @@
 
 Browse and download assets from your Asseteka library inside the Unity Editor. This repository distributes the Windows Editor extension through Unity Package Manager (UPM).
 
-## Install v1.0.4
+## Install v1.0.5
 
 Install Git 2.14.0 or newer and make sure `git --version` works in a new terminal on Windows. Unity Package Manager uses the Git executable on `PATH`. [Unity Git installation guide](https://docs.unity.com/en-us/engine/6000.0/manual/packages-list/managing-packages-window/upm-ui-actions/upm-ui-giturl)
 
@@ -11,7 +11,7 @@ Install Git 2.14.0 or newer and make sure `git --version` works in a new termina
 3. Paste the URL below and click **Install** or **Add**.
 
 ```text
-https://github.com/Cidonix/asseteka-asset-manager-upm.git#v1.0.4
+https://github.com/Cidonix/asseteka-asset-manager-upm.git#v1.0.5
 ```
 
 ## Open your library

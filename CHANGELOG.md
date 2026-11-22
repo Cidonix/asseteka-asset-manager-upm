@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.5]
+
+- Fixed My Assets asking you to sign in again after closing and reopening the window. Your saved session and library now restore automatically.
+- Closing the window while the session is being renewed preserves your sign-in for the next open.
+
 ## [1.0.4]
 
 - Added a changelog to Unity Package Manager.
